@@ -1,0 +1,85 @@
+body {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 14px;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		}
+		
+	#wrap {
+		width: 1100px;
+		margin: 0 auto;
+		}
+		
+	#external-events {
+		float: left;
+		width: 150px;
+		padding: 0 10px;
+		border: 1px solid #ccc;
+		background: #eee;
+		text-align: left;
+		}
+		
+	#external-events h4 {
+		font-size: 16px;
+		margin-top: 0;
+		padding-top: 1em;
+		}
+		
+	.external-event { /* try to mimick the look of a real event */
+		margin: 10px 0;
+		padding: 2px 4px;
+		background: #3366CC;
+		color: #000;
+		font-size: .85em;
+		cursor: pointer;
+		}
+		
+	#external-events p {
+		margin: 1.5em 0;
+		font-size: 11px;
+		color: #666;
+		}
+		
+	#external-events p input {
+		margin: 0;
+		vertical-align: middle;
+		}
+
+	#calendar {
+		float: right;
+		width: 900px;
+		}
+
+	.color1,
+	.color1 .fc-event-inner,
+	.color1 .fc-event-inner .fc-event-head {
+		border-color: #E3D8FF;
+		background-color: #E3D8FF;
+	}
+	.color2,
+	.color2 .fc-event-inner,
+	.color2 .fc-event-inner .fc-event-head {
+		border-color: #EBBBBC;
+		background-color: #EBBBBC;
+	}
+	.color3,
+	.color3 .fc-event-inner,
+	.color3 .fc-event-inner .fc-event-head {
+		border-color: #EED9C0;
+		background-color: #EED9C0;
+	}
+	.color4,
+	.color4 .fc-event-inner,
+	.color4 .fc-event-inner .fc-event-head {
+		border-color: #DFEBB1;
+		background-color: #DFEBB1;
+	}
+	.color5,
+	.color5 .fc-event-inner,
+	.color5 .fc-event-inner .fc-event-head {
+		border-color: #C1E6E5;
+		background-color: #C1E6E5;
+	}
+	.fc-event-skin {
+    	color: #000;
+    }

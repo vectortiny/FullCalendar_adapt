@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel='stylesheet' type='text/css' href='../fullcalendar/fullcalendar.css' />
+<link rel='stylesheet' type='text/css' href='../fullcalendar/fullcalendar.print.css' media='print' />
+<link rel='stylesheet' type='text/css' href='css/lsn.css' />
+<script type='text/javascript' src='../jquery/jquery-1.7.1.min.js'></script>
+<script type='text/javascript' src='../jquery/jquery-ui-1.8.21.custom.min.js'></script>
+<script type='text/javascript' src='../fullcalendar/fullcalendar.min.js'></script>
+<script type='text/javascript' src='js/lsn.js'></script>
+</head>
+<body>
+<div id='wrap'>
+<div id="dialog-form" title="创建新时间段" style="display: none">
+	<p class="validateTips">请选择时间段类型</p>
+	<form>
+	<fieldset>
+		<input type="radio" name="type" id="color1" class="radio ui-widget-content ui-corner-all" value="未评价" checked="checked"/>
+		<label for="type1">未评价</label>
+		<input type="radio" name="type" id="color2" class="radio ui-widget-content ui-corner-all"  value="已评价"/>
+		<label for="type2">已评价</label>
+		<input type="radio" name="type" id="color3" class="radio ui-widget-content ui-corner-all"  value="预定"/>
+		<label for="type3">预定</label>
+		<input type="radio" name="type" id="color4" class="radio ui-widget-content ui-corner-all"  value="空闲"/>
+		<label for="type1">空闲</label>
+		<input type="radio" name="type" id="color5" class="radio ui-widget-content ui-corner-all" value="暂停使用" />
+		<label for="type1">暂停使用</label>
+	</fieldset>
+	</form>
+</div>
+
+<div id='external-events'>
+<h4>拖放时间段</h4>
+<div class='external-event color1'>未评价</div>
+<div class='external-event color2'>已评价</div>
+<div class='external-event color3'>预定</div>
+<div class='external-event color4'>空闲</div>
+<div class='external-event color5'>暂停使用</div>
+</div>
+
+<div id='calendar'></div>
+
+<div style='clear:both'></div>
+</div>
+</body>
+</html>
